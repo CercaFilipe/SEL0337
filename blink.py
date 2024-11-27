@@ -3,6 +3,7 @@
 import RPi.GPIO as GPIO
 import time
 
+#definindo GPIO23 como saída
 led_vermelho = 23
 GPIO.setmode(GPIO.BCM)
 GPIO.setmode(led_vermelho, GPIO.OUT)

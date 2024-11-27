@@ -1,7 +1,9 @@
+#informacoes do servico e suas dependencias
 [Unit]
 Description= Blink Led
 After=multi-user.target
 
+#definindo arquivo a ser executado na inicializacao e o arquivo executado ao parar o servico
 [Service]
 ExecStart=/home/sel/blink.py
 ExecStop=/home/sel/blink_stop.py

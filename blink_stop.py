@@ -3,6 +3,7 @@
 import RPi.GPIO as GPIO
 import time
 
+#define GPIO23 e GPIO24 como saidas
 led_pin=24
 led_vermelho=23
 GPIO.setmode(GPIO.BCM)
